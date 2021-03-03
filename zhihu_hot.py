@@ -43,7 +43,7 @@ def get_hots():
             'category': category
         }
         mycol.insert_one(data)
-    logger.debug('获取热搜成功{}'.format(arrow.now().format("YYYY-MM-DD HH:mm:ss ZZ")))
+    print('获取热搜成功{}'.format(arrow.now().format("YYYY-MM-DD HH:mm:ss ZZ")))
 
     # data = []
     # for li in result:

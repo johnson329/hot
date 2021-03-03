@@ -3,7 +3,7 @@
 ```
 
 ```bash
-* * * * * /home/js/hot/env/bin/python /root/proj/hot/zhihu_hot.py
+* * * * * /root/proj/hot/env/bin/python /root/proj/hot/zhihu_hot.py
 ```
 
 

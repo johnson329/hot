@@ -40,7 +40,8 @@ def get_hots():
             'title': title,
             'hot': hot,
             'link': link,
-            'category': category
+            'category': category,
+            'time':arrow.now().format("YYYY-MM-DD HH:mm")
         }
         mycol.insert_one(data)
     print('获取热搜成功{}'.format(arrow.now().format("YYYY-MM-DD HH:mm:ss ZZ")))

@@ -5,9 +5,7 @@ curl -L https://get.daocloud.io/docker/compose/releases/download/1.25.0/docker-c
 chmod +x /usr/local/bin/docker-compose
 
 # clone project
-cd $HOME
-git clone https://github.com/johnson329/hot
-cd hot
+cd $HOME/hot
 docker-compose up -d
 sudo apt install virtualenv
 virtualenv --python=python3 env

@@ -3,7 +3,7 @@
 ```
 
 ```bash
-* * * * * /root/proj/hot/env/bin/python /root/proj/hot/zhihu_hot.py >> /root/proj/hot/log.txt
+* * * * * /home/lighthouse/hot/env/bin/python /home/lighthouse/hot/zhihu_hot.py >> /home/lighthouse/hot/log.txt
 ```
 
 
@@ -18,3 +18,5 @@ json 回溯算法找路径
 
 阿里云国际服务器
 
+
+source boot.sh

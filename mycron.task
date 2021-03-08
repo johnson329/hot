@@ -1,0 +1,1 @@
+* * * * * $HOME/hot/env/bin/python $HOME/hot/zhihu_hot.py >> $HOME/hot/log.txt

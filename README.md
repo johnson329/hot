@@ -18,5 +18,10 @@ json 回溯算法找路径
 
 阿里云国际服务器
 
+sudo su
 
 source boot.sh
+
+(only first time)
+
+start.sh

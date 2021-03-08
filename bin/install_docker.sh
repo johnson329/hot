@@ -10,3 +10,8 @@ else
   chmod +x /usr/local/bin/docker-compose
   echo "安装docker环境...安装完成!"
 fi
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+
+# add userrm
+sudo usermod -aG docker $USER

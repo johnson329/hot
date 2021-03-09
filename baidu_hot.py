@@ -63,7 +63,7 @@ def get_baidu_hots():
             # print(title)
             # print(data)
 
-            print('获取热搜成功{}'.format(arrow.now().format("YYYY-MM-DD HH:mm:ss ZZ")))
+    print('获取热搜成功{}'.format(arrow.now().format("YYYY-MM-DD HH:mm:ss ZZ")))
 
 
 # NB. Original query string below. It seems impossible to parse and

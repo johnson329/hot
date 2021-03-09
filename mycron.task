@@ -1,1 +1,2 @@
 * * * * * $HOME/hot/env/bin/python $HOME/hot/zhihu_hot.py >> $HOME/hot/log.txt
+* * * * * $HOME/hot/env/bin/python $HOME/hot/baidu_hot.py >> $HOME/hot/baidu_log.txt

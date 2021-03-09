@@ -61,7 +61,7 @@ def get_baidu_hots():
             }
             mycol.insert_one(data)
             # print(title)
-            print(data)
+            # print(data)
 
             print('获取热搜成功{}'.format(arrow.now().format("YYYY-MM-DD HH:mm:ss ZZ")))
 
